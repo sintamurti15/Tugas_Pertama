@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UCA.id | Beranda</title>
+</head>
+<body>
+
+    <a href="#"
+        onMouseOver="document.title='Anda menyorot link, lho'"
+        onMouseOut="document.title=lastTitle">Masuk ke dalam situs</a>
+
+    <a href="#"
+        onMouseOver="this.style.background='black'; this.style.color='white'"
+        onMouseOut="this.style.background='transparent'; this.style.color='black'">Tes Warna</a>
+
+    <!-- Universitas Cendekia Abditama<br /> -->
+    <!-- Coming Soon -->
+
+    <script language="Javascript">
+        // JSON
+        // letakkan script anda disini
+
+        //let namaKampus = "Universitas Cendekia Abditama"
+        let namaKampus = "Universitas Cendekia Abditama"
+        let lastTitle = document.title
+
+        console.log('memulai proses js')
+
+        //document.write(namaKampus + "<br>")
+
+        //debugger
+
+        function getNamaKampus(){
+
+            return namaKampus
+        }
+
+        document.write(getNamaKampus() + "<br>")
+        document.write("Coming soon")
+        document.write('<br />19 Maret 2022')
+
+        document.body.style.background = 'green'
+
+        console.log(document.body)
+
+        // dapat diganti dengan alert yang lebih bagus
+        //window.alert("Anda telah masuk ke halaman UCA.id")
+
+        console.log('seluruh js telah diproses')
+    </script>
+
+</body>
+</html>
